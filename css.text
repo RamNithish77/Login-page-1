@@ -1,0 +1,204 @@
+1.Ex: p{color:red;}
+    "p" is selector
+    "color" is property name
+    "red" is property value
+2.class is an attribute of html that we can use any element to   select and style them or use them.classes can a       multiple same names.
+3.id is an attribute of html that we can use any element to   select and style them or use them.id can only have one name and used for only one element.
+4.* is css reset thst selects every thing on the page
+5.element selector
+            ex: p{}
+            where p is paragraph and element selector
+6.Specificity
+   id>class>element selector
+7.colors
+    "background-color" sets background color
+    "color" sets the color of the font
+    **Ways of setting color
+    1.Normal Ways
+    2.rbga values(red,blue,green,constrast)
+    3.hex values
+    4.hsl values(hue,satuaration,lightness)
+    **color.co web site for some awesome colors
+8."px" is used to set the size of the font
+  "%" is used to set the size of the element
+  "rem" is root em that means 1rem = 1*size of root element
+  "em" em is that looks at parent element
+  "ch" sets no of charecters to be used
+  "vw" sets 1% of view port width
+  "vh" sets 1% of view port height
+9.**"border" is used to get border for the BOX
+    "border-style" is used to set border style
+      "border-width" is used to set border width
+      "border-color' is used to set border color
+      We can access every side of border
+       border-top-style: dotted;
+       border-right-style: solid;
+       border-bottom-style: dotted;
+       border-left-style: solid;
+    **Shorthand border : 5px solid blue
+    "border-radius" is used make curve in the edges
+10.**padding is the space between the content and border
+    "padding" can also be accessed individually
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+    **Shorthand  padding:1px 2px 3px 4px
+11.**Margins are spaces around the border of the element
+    "margin" can also be accessed individually
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+    **Shorthand  margin:1px 2px 3px 4px
+12.***Box model is complete mix of content,padding,border,margin
+13."outline" An outline is a line drawn outside the element's border.
+    The "outline-offset" property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+14.**Typography
+    "text-align" is uesd to align text
+    "text-decoration" is used to decorate text
+    "text-transform" is used transform the text
+    "text-intend" is used to intend the text
+    "text-style" is used to make it italic and otherthings
+    "text-weight" is used to set the width of the text
+    "line-height" is used to set the space between the lightnes
+    "letter-spacing" is used to set the space between the letters
+    "word-spacing" is used to set the space between the words
+    "font-family" is used to set the wt type of font we would like to use
+    **Generic Families
+    1.serifs
+    2.san-serifs
+    3.monospace etc
+15.***links
+    "a:visited","a:hover","a:active","a:focus:" are used to style the links
+    "text-decoration" is set to none to remove the the under line fromr the link
+16.*list 
+    "list-style" is style the buttons
+    "list-style-position" is used position the buttons
+    "list-style-image" "url()" is used to the place the image in button
+    ::marker pseudo element is used to edit the buttons
+    "content" is attribute in marker very useful
+    "start" attribute is uesd wherevto start the list 
+    "reversed" is used to reverse the list
+17.***Display is most important topic in css
+    "Display" is used set which type of Display should be used
+    "inline" is used make the selector inline element
+    inline:No properties like margins,padding will work in in-line
+    "block" is used make selector a block level element that take full wdith of the page
+    block: all properties will work
+    "inline-block" makes element inline and able to use all properties
+    "display:none" remove the element from the web but stayes on the code
+    "display:hidden" the element hidden but space for is provided and left empty on the web
+    "display-flow" is cover the whole element
+    "display-flex" we learn further
+    "display-grid" we learn further
+18.The CSS float property specifies how an element should float.
+   The CSS clear property specifies what elements can float beside the cleared element and on which side.
+   "right" used to float and clear right
+   "left" is used to float and clear left
+19.Overflow decides to display the Overflowen content
+   "visiable" shows the Overflown content comes out of normal flow
+   "hidden" hides the Overflown content
+   "scroll" adds scroll bars to the element
+   "auto" adds scroll bars to the element only when content is Overflown 
+   "overflow-x" decides the horizantal overflow of content
+   "overflow-y" decides the vertical overflow of content
+20.columns
+    "column-count" decides no of columns
+    "column-width" decides the width of the columns
+    "column-rule" is like the border to the column
+    "column-gap" provides the space between the columns
+    "column-span" is used to span in the column
+    "column-fill" decides how to fill an column
+    "break-inside"decides the breaking of an element from in side
+    "white-space" refer Mdn
+21.***position
+    "static" position is default
+    "relative" is used to place an element in respect to its parent
+    "absolute" is used to place an element in respect to respective "relative" element
+    "fixed" is used to fix some thing on page which not inthe normal
+    "sticky" is used to sticky some thing on page until its scope
+22.***flex 
+    "display:flex" is used to convert the contain in to the flex Box
+    "justify-content" is used the items horizantally
+    "align-items" is used the items vertically
+    "flex-direction" decidest the directione the flex items
+    "flex-wrap" used to wrap the flex items in particular Ways
+    "flex-flow" is a Shorthand for flexdirection and flex-wrap
+    "align-content" is used align whole content of thw flex Box
+    "self-align" used to align a particular flex item
+    "gap" is used set the gap between the flex items
+    *"space-evenly","space-around","space-between","flex-end","flex-end","center" are the attributes of justify
+    content,align=items,align-content
+    *"wrap","nowrap","reversewrap" are the attributes of flex wrap
+    *"row","column","rowreverse","columnreverse" are attributes of flexdirection
+    **flexing flex items
+    "display:flex" makes an flex item to have more attributes
+    "flex-basis" is used to set the s=width of the flex item
+    "flex-grow" decides how should the item behave while expanding the page
+    "flex-shrink" decides how should the item behave while shrinking the page
+    "order" is used set the order od the flex items
+23.***grid
+   "display:grid" is used to set the container in the grid
+   "grid-auto-rows" is used to set the size of row
+   "grid-auto-column" is used to set the size of the column
+   "grid-templete-column" is used to set number of columns 
+   "grid-templete-rows" is usede to set number of rows
+   "gap" is used to set gap
+   "row-gap" "column-gap" is used to perspective uses
+   "grid-column-start" is used to set start point of column block
+   "grid-column-end" is used to set end point of column block
+   "grid-column" is Shorthand for "grid-column-start"/"grid-column-end"
+   "grid-row-start" is used to set start point of row block
+   "grid-row-end" is used to set end point of row block
+   "grid-row" is Shorthand for "grid-row-start"/"grid-row-end"
+   "grid-area"is shorthand for "grid-row-start""grid-column-start""grid-row-end""grid-column-end"
+24.*image
+    "height" and "width" properties sets the heigth od the image
+    "display:block" removes the spaces under tghe image
+    "background-image:url();"is used o set the background image
+    "background-size"is used to set the backgroundimage size
+    "background-position" is used to set the background is used the podition of theb back ground image
+    "text-shadow" is used to set the shadow to text
+    "linear-gredient" is set the colors of background linealy 
+    "-webkit-background-clip" is set a text with backgroundimage on it
+25.***mediaqueries
+    syntax
+    @media screen and()
+    {
+        //code
+    }
+26.Variables
+  :root{} is pseudo element is used to initialize Variables
+  -- should be pre fixed for declaring a Variable
+27.funtions
+   var() is used for passing the Variable
+   url() is the funtion used to pass the image link
+   min() max() are funtions that take min or max values
+   clamp(minvalue,relativevalue,maxvalue)
+   calc()
+   filter for styling texts
+   attr()
+   minmax() for grid
+28.transform
+   "translate" is used move the thing in particular direction
+   "rotate" is rotate move the thing in particular direction 
+   "scale" is used increse the x y direction
+   "skew" is used to skew the element
+   "transform-orgin" is used to set where the transform start
+29.*transition
+    "transition-property" is used to set which the transition should be appilied
+    "transition-duration" is used to set time or duration for transition
+    "transition-delay" is used to set the delay of first transition
+    "transition-timing-property" is used how should the transition start and end
+30.**Animation
+    "animation-name" is used set the name for the animation
+    "animation-duration"is used to set the duartion for the animation
+    "animation-timing-property" is used how should the animation start and end
+    "animation-delay" is used to set the delay at the start
+    "animation-iteration-count" is used to set how many times the thing should be animated
+    "animation-direction" is used to set the direction of the animation
+    "animation-fill-mode" decides how the animation should be ended
+    @keyframe Identifier{
+        ---0% etc code
+    }

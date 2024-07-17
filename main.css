@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 140px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 70px 45px 25px;
+}
+
+.Sr-logo img{
+    width: 100vw;
+}
+
+.Sr-option{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid grey;
+
+}
+.Sr-option div{
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sr-option a{
+    font-family: cursive;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.Sr-bottom{
+    background-color: black;
+}
